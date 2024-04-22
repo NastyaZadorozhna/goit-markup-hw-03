@@ -226,11 +226,11 @@ color: #404bbf;
 }
 
 /*==============SECTION1=============*/
-.footer-section{
+.first-section{
     padding: 120px 0;
 }
-.title-hidden{
-    visibility: hidden;
+.visually-hidden{
+    visibility:hidden;
 }
 
 .list-feature{
@@ -306,8 +306,8 @@ background: #fff;
     margin-right: auto;
     flex-wrap: wrap;
     column-gap: 24px;
+    row-gap: 48px;
 }
-
 
 .item-portfolio{
 width: calc((100% - 48px) / 3);
@@ -319,8 +319,11 @@ height: 420px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+.subtitle-portfolio{
     margin-bottom: 8px
 }
+
 
 /*footer*/
 .page-footer{
