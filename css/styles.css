@@ -341,12 +341,9 @@ height: 420px;
     padding: 100px 0;
 }
 .footer-container{
-    display: flex;
     flex-direction: column;
     align-items: start;
-
 }
-
 
 .footer-logo{
     color: #4d5ae5;
